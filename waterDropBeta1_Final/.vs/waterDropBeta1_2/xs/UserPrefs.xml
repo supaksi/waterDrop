@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{2E25D04D-78C3-CF01-DEFB-378F20849410}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Cloud.cs">
+    <Files>
+      <File FileName="../../Google Drive/study/MAX/2_JavaScript/20190519kjb/Assets/Scripts/Cloud.cs" Line="31" Column="1" />
+      <File FileName="Assets/Script/Cloud.cs" Line="30" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

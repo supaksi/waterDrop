@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 01b0b957454f64165809b90ab974b29f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - destoryFXPrefab: {fileID: 2897441994400887669, guid: bcdcc258c5e1d814f915749daaac8c50,
+      type: 3}
+  - sprite1: {fileID: 21300000, guid: e4e5001dff53345fe8cacac76c904138, type: 3}
+  - sprite2: {fileID: 21300000, guid: e2eedc7add0834b588db2d2a2d0f3bc0, type: 3}
+  - sprite3: {fileID: 21300000, guid: 5591b02aa48194517baef9bb6d80f912, type: 3}
+  - sprite4: {fileID: 21300000, guid: 5fc0246bdc52c48669e959c6c61ec2db, type: 3}
+  - sprite5: {fileID: 21300000, guid: 558f492dbc8964a2fb5cc05562778954, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
