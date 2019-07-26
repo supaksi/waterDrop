@@ -1,6 +1,6 @@
 # waterDrop 2D 
 
-![waterDrop2D](waterDropBeta1_Final/waterDrop2D.jpg)
+![waterDrop2D](https://user-images.githubusercontent.com/52766675/61930012-8793d800-afb7-11e9-8918-3236c625016c.jpg)
 
 
 
