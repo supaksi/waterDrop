@@ -1,5 +1,9 @@
 # waterDrop 2D 
 
+![waterDrop2D](C:\Users\supak\OneDrive\문서\GitHub\waterDrop\waterDropBeta1_Final\waterDrop2D.jpg)
+
+
+
 __사용한 리소스__
 
 - 이미지
