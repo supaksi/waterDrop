@@ -1,6 +1,6 @@
 # waterDrop 2D 
 
-![waterDrop2D](C:\Users\supak\OneDrive\문서\GitHub\waterDrop\waterDropBeta1_Final\waterDrop2D.jpg)
+![waterDrop2D](waterDropBeta1_Final/waterDrop2D.jpg)
 
 
 
