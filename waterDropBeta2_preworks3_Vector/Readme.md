@@ -38,6 +38,7 @@
     ```
 
 - 절대값 표기
+  
   - $\vec{|a|}$ :    absolute로 방향성 제외 하고 양 만 사용하는 경우
 
 
@@ -52,7 +53,7 @@
 
     
 
-![Screen Shot 2019-07-28 at 3.16.00 PM](/Users/jinmacbook/Documents/GitHub/waterDrop/waterDropBeta2_preworks/Screen Shot 2019-07-28 at 3.16.00 PM.png)
+![Screen Shot 2019-07-28 at 3.16.00 PM](https://user-images.githubusercontent.com/52766675/62003671-65d05780-b155-11e9-8181-f2d8af7da540.png)
 
 - 표의 vector는 모두 같음, 다만 기점(postion) 이 다른 것
 
@@ -68,7 +69,7 @@
 
 ## Vector Addition
 
-![Screen Shot 2019-07-28 at 3.27.49 PM](/Users/jinmacbook/Documents/GitHub/waterDrop/waterDropBeta2_preworks/Screen Shot 2019-07-28 at 3.27.49 PM.png)
+![Screen Shot 2019-07-28 at 3.27.49 PM](https://user-images.githubusercontent.com/52766675/62003676-94e6c900-b155-11e9-8e4e-438ad7d5f0fa.png)
 
 - vector의 합
 
@@ -87,7 +88,7 @@
 
 - $\vec{a}$ , $\vec{b}$ 둘중 하나를 골라 해당 vector 의 tail을 나머지 vector의 head에 연결
 
-  ![Screen Shot 2019-07-28 at 3.47.09 PM](/Users/jinmacbook/Documents/GitHub/waterDrop/waterDropBeta2_preworks/Screen Shot 2019-07-28 at 3.47.09 PM.png)
+  ![Screen Shot 2019-07-28 at 3.47.09 PM](https://user-images.githubusercontent.com/52766675/62003688-c2cc0d80-b155-11e9-8da0-5137eeaf7be6.png)
 
 
 
@@ -98,7 +99,7 @@
 - $\vec{a}$ + $\vec{b}$ = $\vec{0}$
   - $\vec{b}$ = $\vec{-a}$ 
 
-![Screen Shot 2019-07-28 at 3.49.16 PM](/Users/jinmacbook/Documents/GitHub/waterDrop/waterDropBeta2_preworks/Screen Shot 2019-07-28 at 3.49.16 PM.png)
+![Screen Shot 2019-07-28 at 3.49.16 PM](https://user-images.githubusercontent.com/52766675/62003695-cfe8fc80-b155-11e9-9d8b-9d6f289e0b10.png)
 
 
 
