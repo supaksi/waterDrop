@@ -1,39 +1,20 @@
-# waterDrop 2D 
+# waterDropBeta1
 
 ![waterDrop2D](https://user-images.githubusercontent.com/52766675/61930012-8793d800-afb7-11e9-8918-3236c625016c.jpg)
 
+ ## 작동
+
+1. 마우스를 이용하여 구름 이동
+
+2. 클릭시 구름에서 물방울이 생성
+
+3. 생성된 물방울이 지면으로 떨어짐
+
+   2.1. 지면으로 떨어지는 각도, 방향은 랜덤으로
+
+4. 지면에 떨어지면 물방울이 터지면서 사라짐
 
 
-__사용한 리소스__
 
-- 이미지
+## 데모
 
-  - 구름
-  - 지면
-  - 물방울 5개
-  - 물봉울 터지는거 5개
-
-- 오디오
-
-  - 떨어지고 터지고 1개
-
-    
-
-__스크립트__
-
-- cloud 스크립트
-
-  - 메인 스크립트
-  - WaterWithArray 프리팹 소유
-
-- WaterWithArray 프리팹
-
-  - waterWithArry 스크립트 소유
-    - water 스프라이트 설정
-    - splash 프리팹 설정
-
-- splah 프리팹
-
-  - splash 스크립트 소유
-
-  
