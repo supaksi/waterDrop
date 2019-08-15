@@ -5,20 +5,23 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 { 
-    float timeElapsed = 0;
-    float speedCoefficient = 0.5f;
+
+    public float speedCoefficient = 0.5f;
     public float amplitude = 3f;
+
+    float m_timeElapsed = 0;
+    Vector3 m_startPos;
+
+    private void Start()
+    {
+        m_startPos = transform.position;
+    }
 
     void FixedUpdate()
     {
-        timeElapsed = timeElapsed + Time.fixedDeltaTime;
-        float magnitude = amplitude * Mathf.Sin((timeElapsed * speedCoefficient) * 2 * Mathf.PI);
-
-        // 현재 위치를 newPos에 저장
-        Vector3 newPos = transform.position;
-        newPos.y = newPos.y + magnitude;
-
-        // 업데이트 된 Vector 값을 position으로 설정 (이건 좋은 코드는 아님 데모를 위해서 간편하게 적용)
-        transform.position = newPos;  
+        m_timeElapsed = m_timeElapsed + Time.fixedDeltaTime;
+        float magnitude = amplitude * Mathf.Sin((m_timeElapsed * speedCoefficient) * 2 * Mathf.PI);
+     
+        transform.position = m_startPos + new Vector3(0, magnitude, 0);  
     }
 }

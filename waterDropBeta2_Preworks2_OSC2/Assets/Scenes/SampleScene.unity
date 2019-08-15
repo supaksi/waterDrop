@@ -193,7 +193,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -1.20298484e-26, y: 18999.137, z: 1.5364368e+28, w: -4.8119394e-26}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 9.1837e-41}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -211,6 +211,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &836748211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 836748214}
+  - component: {fileID: 836748213}
+  - component: {fileID: 836748212}
+  m_Layer: 0
+  m_Name: OSC Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &836748212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836748211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbba286dc10e549b2bdec947ef8dbd3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoConnect: 1
+  closeOnPause: 0
+  mapBundle: {fileID: 0}
+  workInEditor: 0
+  localHostMode: 0
+  localHost: 192.168.219.100
+  localPort: 7000
+--- !u!114 &836748213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836748211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464088183d2a1484ab8fb64e356c9f5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoConnect: 1
+  closeOnPause: 0
+  mapBundle: {fileID: 0}
+  workInEditor: 0
+  localHostMode: 0
+  localPortMode: 2
+  localReceiver: {fileID: 0}
+  localHost: 192.168.219.100
+  localPort: 7000
+  remoteHost: 127.0.0.1
+  remotePort: 7000
+  useBundle: 1
+--- !u!4 &836748214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836748211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &867907138
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +473,6 @@ GameObject:
   - component: {fileID: 2097412780}
   - component: {fileID: 2097412779}
   - component: {fileID: 2097412783}
-  - component: {fileID: 2097412784}
   m_Layer: 0
   m_Name: bar
   m_TagString: Untagged
@@ -490,21 +564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db4d5bc57ef1e4be7abb10472e12e480, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Address: /example/1
-  Transmitter: {fileID: 0}
---- !u!114 &2097412784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097412778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90b669f20179dad41bcc44688faec028, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Address: /example/1
+  Address: /bar
   Transmitter: {fileID: 0}
 --- !u!1 &2144525248
 GameObject:
@@ -592,7 +652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144525248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -610,4 +670,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86703f2e532236447839ee2149f5a8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  speedCoefficient: 1
+  amplitude: 3
