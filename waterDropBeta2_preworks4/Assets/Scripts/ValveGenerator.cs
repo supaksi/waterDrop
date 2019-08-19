@@ -15,7 +15,7 @@ public class ValveGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float valveXPosition = instPosition.x;
+        float valveXPosition = instposition.x;
         float valveZPosition = instposition.z;
         for (int i = 0; i < valveNumber; i++)
         {
