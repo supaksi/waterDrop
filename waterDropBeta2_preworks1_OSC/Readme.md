@@ -42,7 +42,7 @@
    - TransmitterTest 스크립트는 extOSC의 SimpleTransmitter에서 가져옴
      -  (설정상 Transmitter파일 명으로 사용 하면 애러남)
 
-4.  Cube에 움직임을 줄 Move 스크립트 제작
+4.  Cube움직임은 Move 스크립트 활용
 
    - unity game object oscillate 검색
    - Position version 확인 후 스크립트 복붙.. 

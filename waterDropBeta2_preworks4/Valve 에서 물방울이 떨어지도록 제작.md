@@ -25,9 +25,10 @@ Valve 에서 물방울이 떨어지도록 제작
   
     ``` c#
     for (int i ; i < uumber; i ++ )
+        // int i = 0 ; i < 10 ; i ++
     ```
   
-    
+    - i = interation variable
   
     
   
