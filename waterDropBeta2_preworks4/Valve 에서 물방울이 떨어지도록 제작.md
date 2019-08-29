@@ -1,4 +1,14 @@
-Valve 에서 물방울이 떨어지도록 제작
+# Valve 생성
+
+ValveGenerator 스크립트를 통해 Valve 프리팹을 복제
+
+갯수 및 간격은 private로 설정함
+
+
+
+
+
+# Valve 에서 물방울 컨트롤
 
 - Valve의 갯수 설정
 
@@ -11,7 +21,7 @@ Valve 에서 물방울이 떨어지도록 제작
     {
         //body
     }
-    ```
+  ```
   
     - 조건의 (true/false) 를 구분해서 실행
   
