@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{62FDED8F-6120-90B4-0E3B-C5B3DD46597B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Valve.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Valve.cs" Line="13" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="waterDropBeta2_preworks6" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Valve.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="171390b3-234e-4c0f-8bd3-0f08beadfb84" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
