@@ -243,6 +243,7 @@
     <Compile Include="Assets\extOSC\Scripts\UI\OSCPad.cs" />
     <Compile Include="Assets\extOSC\Scripts\UI\OSCRotary.cs" />
     <Compile Include="Assets\extOSC\Scripts\UI\OSCSlider.cs" />
+    <Compile Include="Assets\Scripts\GroundOSC.cs" />
     <Compile Include="Assets\Scripts\Valve.cs" />
     <Compile Include="Assets\Scripts\ValveGenerator.cs" />
     <Compile Include="Assets\Scripts\Water.cs" />

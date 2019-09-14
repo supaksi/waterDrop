@@ -6,7 +6,7 @@ public class Valve : MonoBehaviour
 {
     [SerializeField] GameObject waterPrefab;
     [SerializeField] float frequency = 2f;
-    [SerializeField] [Range(0f, 1.0f)] float noiseness = 0.1f;
+    [SerializeField] [Range(0f, 1.0f)] float randomness = 0.1f;
 
     private Vector3 m_Position;
 
@@ -38,7 +38,7 @@ public class Valve : MonoBehaviour
         // noise
         float randomVal = Random.Range(-1.0f, 1.0f);
 
-        float mixVal = MixValue(sineVal, randomVal, noiseness / 100);
+        float mixVal = MixValue(sineVal, randomVal, randomness);
 
         if(mixVal < threhold)
         {
@@ -52,9 +52,9 @@ public class Valve : MonoBehaviour
         }
     }
 
-    float MixValue(float InputA, float InputB, float mixAmout)
+    float MixValue(float InputA, float InputB, float bAmount)
     {
 
-        return ((1.0f - mixAmout) * InputA) + (mixAmout * InputB);  
+        return (InputA * (1.0f - bAmount)) + (InputB * bAmount);  
     }
 }
