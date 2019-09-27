@@ -197,6 +197,11 @@ PrefabInstance:
       propertyPath: noiseness
       value: 0.115
       objectReference: {fileID: 0}
+    - target: {fileID: 1818437161994613346, guid: 45d45c6ad7a37d54e9a146ab9db4b8bc,
+        type: 3}
+      propertyPath: randomness
+      value: 0.516
+      objectReference: {fileID: 0}
     - target: {fileID: 1818437161994613350, guid: 45d45c6ad7a37d54e9a146ab9db4b8bc,
         type: 3}
       propertyPath: m_Enabled

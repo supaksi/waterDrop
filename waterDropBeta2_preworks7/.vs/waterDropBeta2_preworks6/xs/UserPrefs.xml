@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{62FDED8F-6120-90B4-0E3B-C5B3DD46597B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Valve.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Valve.cs" Line="59" Column="6" />
+      <File FileName="Assets/Scripts/GroundOSC.cs" Line="23" Column="28" />
+      <File FileName="Assets/extOSC/Examples/01) Getting Started/Scripts/SimpleMessageTransmitter.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/Water.cs" Line="1" Column="1" />
+      <File FileName="../waterDropBeta2_preworks5/Assets/Scripts/Valve.cs" Line="46" Column="6" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="waterDropBeta2_preworks6" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="extOSC" expanded="True">
+                <Node name="Examples" expanded="True">
+                  <Node name="01) Getting Started" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Valve.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1b9078f8-4d77-45a1-ba61-6b6029c58306" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

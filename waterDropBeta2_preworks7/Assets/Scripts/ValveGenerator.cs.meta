@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5adadedc406354a18a39c840a60ed9fd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - valvePrefab: {fileID: 1818437161994613349, guid: 45d45c6ad7a37d54e9a146ab9db4b8bc,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
